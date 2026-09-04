@@ -1,0 +1,6 @@
+{
+  "name": "Schmierstoff- & Kraftstoff-Intelligenz Deutschland (Lube & Fuel Intel DE)",
+  "description": "Comprehensive German Lubricants & Fuel Market Intelligence, C-Level Strategy Cockpit, CapEx IRR Hurdle-Rate Pipeline, THG-Quota Arbitrage, 16 Bundesländer Supply-Demand Gap Analyzer, Fuel Pump Analytics, and OSM Harvester.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

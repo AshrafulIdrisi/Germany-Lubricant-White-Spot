@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+/* Light Purple & White Theme Utilities */
+:root {
+  --color-primary: #7c3aed;
+  --color-primary-light: #f5f3ff;
+  --color-primary-border: #ddd6fe;
+}
+
+body {
+  background-color: #faf8ff;
+  color: #1e1b4b;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Light Purple Subtle Dot & Grid Patterns */
+.purple-grid-bg {
+  background-image: radial-gradient(#ddd6fe 1.2px, transparent 1.2px);
+  background-size: 24px 24px;
+}
+
+.purple-subtle-glow {
+  background: radial-gradient(circle at 50% 0%, rgba(196, 181, 253, 0.25) 0%, rgba(250, 248, 255, 0) 70%);
+}
+
+.purple-glass-card {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(221, 214, 254, 0.9);
+  box-shadow: 0 4px 20px -2px rgba(124, 58, 237, 0.08);
+}
+
+.header-purple-gradient {
+  background: linear-gradient(135deg, #ffffff 0%, #f5f3ff 100%);
+}
+
+.purple-slider-track {
+  background: #ede9fe;
+  border: 1px solid #ddd6fe;
+}
+
+.border-purple-light {
+  border: 1px solid #e9d5ff;
+}
+
+.status-badge {
+  font-size: 10px;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+/* Light Purple Data Tables */
+.data-row:nth-child(even) {
+  background-color: rgba(245, 243, 255, 0.7);
+}
+
+.data-row:hover {
+  background-color: rgba(237, 233, 254, 0.9);
+}
+
+.light-data-row:nth-child(even) {
+  background-color: #f3f0ff;
+}
+
+/* Leaflet Popup Purple/White Styling */
+.leaflet-popup-content-wrapper {
+  background: #ffffff !important;
+  color: #1e1b4b !important;
+  border: 1px solid #ddd6fe !important;
+  border-radius: 12px !important;
+  box-shadow: 0 10px 25px -5px rgba(124, 58, 237, 0.15) !important;
+}
+
+.leaflet-popup-tip {
+  background: #ffffff !important;
+  border: 1px solid #ddd6fe !important;
+}
+
+/* Custom Purple Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f5f3ff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c4b5fd;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a78bfa;
+}
